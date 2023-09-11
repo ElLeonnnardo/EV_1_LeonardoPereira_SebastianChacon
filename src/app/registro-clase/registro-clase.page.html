@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Registro de Clase
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+  <ion-card>
+    <ion-card-header>
+      Clase Registrada
+    </ion-card-header>
+    <ion-card-content>
+      <p>{{ qrData }}</p>
+    </ion-card-content>
+
+    <ion-card-header>
+      Datos del Alumno
+    </ion-card-header>
+    <ion-card-content>
+      <p><strong>Nombre:</strong> {{ nombre }}</p>
+      <p><strong>Apellido:</strong> {{ apellido }}</p>
+      <p><strong>RUT:</strong> {{ rut }}</p>
+    </ion-card-content>
+
+      <ion-card-header>
+        TimeStamp
+      </ion-card-header>
+      <ion-card-content>
+        <p>{{ currentTimestamp }}</p>
+      </ion-card-content>
+  </ion-card>

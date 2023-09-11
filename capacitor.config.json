@@ -1,0 +1,18 @@
+{
+  "appId": "duocapp.com",
+  "appName": "duocapp",
+  "webDir": "www",
+  "plugins": {
+    "BarcodeScanner": {
+      "android": {
+        "package": "duocapp.com",
+        "permissions": [
+          "android.permission.CAMERA"
+        ]
+      }
+    }
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}
